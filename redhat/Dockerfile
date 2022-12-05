@@ -2,5 +2,7 @@
 
 FROM registry.access.redhat.com/ubi7:latest
 
-CMD ["/bin/bash", "-c", "sleep infinity"]
-# CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
+# Running Module 1A Updating the App ppt pg 37: commentign infinity and removing comment for sleep 30
+
+# CMD ["/bin/bash", "-c", "sleep infinity"]
+CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
